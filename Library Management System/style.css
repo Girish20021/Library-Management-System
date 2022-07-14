@@ -1,0 +1,349 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url();
+}
+body, html{     
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+a {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.input-field {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+::placeholder{
+    color: aliceblue;
+}
+
+.full-page{
+    height:100%;
+    width:100%;
+    background-position: center;
+    position:absolute;   
+}
+.navbar{
+    display: flex;
+    align-items: left;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+.full-page1{
+    height:100%;
+    width: 100%;
+    
+    background-position: center;
+    position:relative;   
+}
+.full-page1 h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar1 h1{
+    padding-left: 200px;
+    color:white
+}
+.navbar1{
+    width:100%;
+    background:#2f3640; 
+    display: flex;
+    align-items: center;
+    padding:25px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-top: 35px;
+}
+.navbar2{
+    top: -310px;
+    height:160%;
+    width:12%;
+    display: flex;
+    align-items: center;
+}
+.full-page1 .navbar2{
+    position:fixed;
+    background:#2f3640; 
+}
+.full-page1 .navbar2 ul li{
+    padding:25px;
+    border-bottom: 2px rgba(255, 255, 255, 0.1);
+    border-top: 2px  rgba(225, 225, 225, 0.05);
+    font-family: 'Times New Roman', Times, serif;
+}
+nav1 ul{
+    display: inline-block;
+    list-style: none;
+}
+nav1 li{
+    display: inline-block;
+    margin-right:10px;
+}
+nav1 ul li a{
+    transition: .3s;
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    font-family: sans-serif;
+}
+nav1 ul li a:hover{
+    color:yellowgreen;
+    border-left: 5px solid brown;
+}
+nav{
+    flex:1;
+    text-align:right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-right:70px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color:white;
+    font-family: sans-serif;
+}
+nav ul li button{
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+    outline: none;
+    border:none;
+    background: transparent;
+    cursor:pointer;
+}
+nav ul li button:hover{
+    border-bottom: 3px solid white;
+    color:yellowgreen;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid white;
+    color:yellowgreen;
+}
+a{
+    text-decoration: none;
+    color:palevioletred;
+    font:28px;
+}
+.form-box{
+    width:100%;
+    height:480px;
+    position: relative;
+    margin:2% auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding:10px;
+    overflow: hidden;
+}
+.button-box{
+   width:220px;
+   margin:35px auto;
+   position:relative;
+   box-shadow:0 0 20px 9px #ff61241f;
+   border-radius: 30px; 
+}
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:110px;
+    height:100%;
+    background:#F3C693;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+textarea{
+    color:white;
+}
+.input-login, .query-page{
+    top:150px;
+    position:absolute;
+    width:280px;
+    transition: .5s;
+}
+.query-submit{
+    top:150px;
+    position:absolute;
+    width:280px;
+    transition: .5s;
+}
+.input-field{
+    width:100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+}
+#login{
+    left:auto;
+    top:90px;
+}
+#login input{
+    color:white;
+    font-size: 15;
+}
+#query{
+    left:auto;
+    top:60px;
+}
+#query input{
+    color:white;
+    font-size: 15;
+}
+.submit-btn{
+    width:85%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    margin: auto;
+    background: #F3C693;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.submit-btn:hover, .submit-btn:active{
+    background:greenyellow ;
+    border:none;
+}
+.HomePage{
+    position: absolute;
+    width:600px;
+    height:300px;
+    margin:20% 30%;
+    text-align: center;
+}
+.HomePage h1{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.HomePage a{
+    text-decoration: none;
+    border:1px solid white;
+    padding:10px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 20px;
+    display: inline-block;
+    color:white;
+}
+.HomePage a:hover{
+    color:yellowgreen;
+}
+.query-page ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+}
+.HomePage a1{
+    text-decoration:underline;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 10px;
+    display:flex;
+    color:white;
+}
+.HomePage h2{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#logo {
+    width: 183px;
+}
+.HomePage1{
+    top:-50px;
+    position: absolute;
+    width:600px;
+    height:400px;
+    margin:20% 30%;
+    text-align: center;
+}
+.HomePage1 h1{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.HomePage1 a{
+    text-decoration: none;
+    border:1px solid white;
+    padding:10px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 20px;
+    display: inline-block;
+    color:white;
+}
+.HomePage1 a:hover{
+    color:yellowgreen;
+}
+.HomePage1 a1{
+    text-decoration:underline;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 10px;
+    display:flex;
+    color:white;
+}
+.HomePage1 h2{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.invalid{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(download.png);
+}
+.book-box{
+    width:100%;
+    height:auto;
+    position:relative;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding:10px;
+    overflow: hidden;
+}
+.suggestion-box{
+    width:100%;
+    height:auto;
+    position:relative;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding:10px;
+    overflow: hidden;
+}
